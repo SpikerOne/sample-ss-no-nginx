@@ -19,4 +19,4 @@ mv /conf/shadowsocks-libev_config.json /etc/shadowsocks-libev/config.json
 
 cat /etc/shadowsocks-libev/config.json
 
-ss-server -s 0.0.0.0 -p 443 -k password --plugin "v2ray-plugin" --plugin-opts "server;path=/v2ray" --no-delay --fast-open --reuse-port
+ss-server -s 0.0.0.0 -p 443 -k password --plugin "v2ray-plugin" --plugin-opts "server;path=/v2ray" --no-delay --fast-open --reuse-port -u
